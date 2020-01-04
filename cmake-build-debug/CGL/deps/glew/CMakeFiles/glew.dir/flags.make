@@ -6,5 +6,5 @@ C_FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacO
 
 C_DEFINES = -DGLEW_STATIC
 
-C_INCLUDES = -I/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/deps/glew/include 
+C_INCLUDES = -I/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/deps/glew/include 
 

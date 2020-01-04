@@ -492,6 +492,7 @@ void DrawRend::rasterize_line( float x0, float y0,
 }
 
 // Rasterize a triangle.
+
 void DrawRend::rasterize_triangle( float x0, float y0,
                          float x1, float y1,
                          float x2, float y2,
@@ -510,25 +511,34 @@ void DrawRend::rasterize_triangle( float x0, float y0,
   // Part 4: Add barycentric coordinates and use tri->color for shading when available.
   // Part 5: Fill in the SampleParams struct and pass it to the tri->color function.
   // Part 6: Pass in correct barycentric differentials to tri->color for mipmapping.
-  float max_x = std::max(std::max(x0, x1), x2);
-  float max_y = std::max(std::max(y0, y1), y2); 
-  for(int i = 0; i < max_x; i++){
-    for (int j = 0; i < max_y; j++){
-      if(inside_triangle_helper(x0, y0, x1, y1, i+0.5, j+0.5) && inside_triangle_helper(x0, y0, x2, y2, i+0.5, j+0.5) && inside_triangle_helper(x1, y1, x2, y2, i+0.5, j+0.5)){
-        samplebuffer[i+0.5][j+0.5].fill_pixel(color);
-      }
+  float max_x = max(max(x0, x1), x2);
+  float max_y = max(max(y0, y1), y2);
+  float min_x = min(min(x0, x1), x2);
+  float min_y = min(min(y0, y1), y2);
+  for(int i = min_x; i < max_x; ++i){
+    for (int j = min_y; j < max_y; ++j){
+        if(i>=this->width||j>=this->height)
+            continue;
+        float e1 = inside_triangle_helper(x0, y0, x1, y1, i + 0.5, j + 0.5);
+        float e2 = inside_triangle_helper(x2, y2, x0, y0, i + 0.5, j + 0.5);
+        float e3 = inside_triangle_helper(x1, y1, x2, y2, i + 0.5, j + 0.5);
+
+        if ((e1 > 0 && e2 > 0 && e3 > 0)) {
+            samplebuffer[j][i].fill_pixel(color);
+        }
+        }
     }
   }
 
 
 
-}
 
-    bool DrawRend::inside_triangle_helper(float x0, float y0, float x1, float y1, double x, double y) {
-        if((y - y0) * (x1 - x0) - (x - x0) * (y1 - y0) > 0 ){
-            return true;
-        }
-        return false;
+
+
+
+
+    float DrawRend::inside_triangle_helper(float x0, float y0, float x1, float y1, double x, double y) {
+        return (y - y0) * (x1 - x0) - (x - x0) * (y1 - y0);
     }
 
             

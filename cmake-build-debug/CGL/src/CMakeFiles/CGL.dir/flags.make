@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++11 -m64 -O3 -funroll-loops -Wno-narrowing -Wno-deprecated-r
 
 CXX_DEFINES = -DGLEW_STATIC
 
-CXX_INCLUDES = -I/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/include -I/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/deps/glew/include -I/usr/local/include/freetype2 -I/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/include/CGL 
+CXX_INCLUDES = -I/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/include -I/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/deps/glew/include -I/usr/local/include/freetype2 -I/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/include/CGL 
 

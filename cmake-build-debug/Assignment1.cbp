@@ -8,84 +8,84 @@
 		<Option virtualFolders="CMake Files\;CMake Files\CGL\;CMake Files\CGL\deps\;CMake Files\CGL\deps\glew\;CMake Files\CGL\deps\glfw\;CMake Files\CGL\deps\glfw\src\;CMake Files\CGL\src\;CMake Files\src\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug"/>
+				<Option working_dir="/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="install/local">
-				<Option working_dir="/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug"/>
+				<Option working_dir="/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="install/strip">
-				<Option working_dir="/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug"/>
+				<Option working_dir="/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="install">
-				<Option working_dir="/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug"/>
+				<Option working_dir="/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="list_install_components">
-				<Option working_dir="/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug"/>
+				<Option working_dir="/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug"/>
+				<Option working_dir="/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug"/>
+				<Option working_dir="/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="glew">
-				<Option output="/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/deps/glew/libglew.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/deps/glew"/>
+				<Option output="/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/deps/glew/libglew.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/deps/glew"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="clang"/>
 				<Compiler>
 					<Add option="-DGLEW_STATIC"/>
-					<Add directory="/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/deps/glew/include"/>
+					<Add directory="/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/deps/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
@@ -94,21 +94,21 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/deps/glew/Makefile&quot;  VERBOSE=1 glew"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/deps/glew/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/deps/glew/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/deps/glew/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/deps/glew/Makefile&quot;  VERBOSE=1 glew"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/deps/glew/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/deps/glew/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/deps/glew/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="glew/fast">
-				<Option output="/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/deps/glew/libglew.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/deps/glew"/>
+				<Option output="/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/deps/glew/libglew.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/deps/glew"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="clang"/>
 				<Compiler>
 					<Add option="-DGLEW_STATIC"/>
-					<Add directory="/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/deps/glew/include"/>
+					<Add directory="/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/deps/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
@@ -117,33 +117,33 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/deps/glew/Makefile&quot;  VERBOSE=1 glew/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/deps/glew/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/deps/glew/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/deps/glew/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/deps/glew/Makefile&quot;  VERBOSE=1 glew/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/deps/glew/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/deps/glew/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/deps/glew/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="uninstall">
-				<Option working_dir="/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/deps/glfw"/>
+				<Option working_dir="/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/deps/glfw"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/deps/glfw/Makefile&quot;  VERBOSE=1 uninstall"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/deps/glfw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/deps/glfw/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/deps/glfw/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/deps/glfw/Makefile&quot;  VERBOSE=1 uninstall"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/deps/glfw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/deps/glfw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/deps/glfw/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="glfw">
-				<Option output="/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/deps/glfw/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/deps/glfw/src"/>
+				<Option output="/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/deps/glfw/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/deps/glfw/src"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="clang"/>
 				<Compiler>
 					<Add option="-DGLEW_STATIC"/>
 					<Add option="-D_GLFW_USE_CONFIG_H"/>
-					<Add directory="/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/deps/glfw/src"/>
-					<Add directory="/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/deps/glfw/src"/>
+					<Add directory="/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/deps/glfw/src"/>
+					<Add directory="/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/deps/glfw/src"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
@@ -152,23 +152,23 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/deps/glfw/src/Makefile&quot;  VERBOSE=1 glfw"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/deps/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/deps/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/deps/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/deps/glfw/src/Makefile&quot;  VERBOSE=1 glfw"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/deps/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/deps/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/deps/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="glfw/fast">
-				<Option output="/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/deps/glfw/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/deps/glfw/src"/>
+				<Option output="/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/deps/glfw/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/deps/glfw/src"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="clang"/>
 				<Compiler>
 					<Add option="-DGLEW_STATIC"/>
 					<Add option="-D_GLFW_USE_CONFIG_H"/>
-					<Add directory="/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/deps/glfw/src"/>
-					<Add directory="/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/deps/glfw/src"/>
+					<Add directory="/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/deps/glfw/src"/>
+					<Add directory="/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/deps/glfw/src"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
@@ -177,24 +177,24 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/deps/glfw/src/Makefile&quot;  VERBOSE=1 glfw/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/deps/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/deps/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/deps/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/deps/glfw/src/Makefile&quot;  VERBOSE=1 glfw/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/deps/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/deps/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/deps/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="CGL">
-				<Option output="/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/src/libCGL_osx.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/src"/>
+				<Option output="/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/src/libCGL_osx.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/src"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="clang"/>
 				<Compiler>
 					<Add option="-DGLEW_STATIC"/>
-					<Add directory="/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/include"/>
-					<Add directory="/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/deps/glew/include"/>
+					<Add directory="/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/include"/>
+					<Add directory="/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/deps/glew/include"/>
 					<Add directory="/usr/local/include/freetype2"/>
-					<Add directory="/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/include/CGL"/>
+					<Add directory="/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/include/CGL"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
@@ -203,24 +203,24 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/src/Makefile&quot;  VERBOSE=1 CGL"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/src/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/src/Makefile&quot;  VERBOSE=1 CGL"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/src/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="CGL/fast">
-				<Option output="/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/src/libCGL_osx.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/src"/>
+				<Option output="/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/src/libCGL_osx.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/src"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="clang"/>
 				<Compiler>
 					<Add option="-DGLEW_STATIC"/>
-					<Add directory="/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/include"/>
-					<Add directory="/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/deps/glew/include"/>
+					<Add directory="/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/include"/>
+					<Add directory="/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/deps/glew/include"/>
 					<Add directory="/usr/local/include/freetype2"/>
-					<Add directory="/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/include/CGL"/>
+					<Add directory="/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/include/CGL"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
@@ -229,20 +229,20 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/src/Makefile&quot;  VERBOSE=1 CGL/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/src/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/src/Makefile&quot;  VERBOSE=1 CGL/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/src/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="draw">
-				<Option output="/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/draw" prefix_auto="0" extension_auto="0"/>
+				<Option output="/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/draw" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir=".."/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="clang"/>
 				<Compiler>
-					<Add directory="/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/include"/>
+					<Add directory="/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/include"/>
 					<Add directory="/usr/local/include/freetype2"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
@@ -252,20 +252,20 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 draw"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 draw"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="draw/fast">
-				<Option output="/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/draw" prefix_auto="0" extension_auto="0"/>
+				<Option output="/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/draw" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir=".."/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="clang"/>
 				<Compiler>
-					<Add directory="/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/include"/>
+					<Add directory="/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/include"/>
 					<Add directory="/usr/local/include/freetype2"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
@@ -275,200 +275,200 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 draw/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 draw/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/deps/glew/src/glew.c">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/deps/glew/src/glew.c">
 			<Option target="glew"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/deps/glew/src/glewinfo.c">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/deps/glew/src/glewinfo.c">
 			<Option target="glew"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/deps/glew/src/visualinfo.c">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/deps/glew/src/visualinfo.c">
 			<Option target="glew"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/deps/glfw/include/GLFW/glfw3.h">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/deps/glfw/include/GLFW/glfw3.h">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/deps/glfw/include/GLFW/glfw3native.h">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/deps/glfw/include/GLFW/glfw3native.h">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/deps/glfw/src/cocoa_init.m">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/deps/glfw/src/cocoa_init.m">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/deps/glfw/src/cocoa_monitor.m">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/deps/glfw/src/cocoa_monitor.m">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/deps/glfw/src/cocoa_platform.h">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/deps/glfw/src/cocoa_platform.h">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/deps/glfw/src/cocoa_window.m">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/deps/glfw/src/cocoa_window.m">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/deps/glfw/src/context.c">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/deps/glfw/src/context.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/deps/glfw/src/init.c">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/deps/glfw/src/init.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/deps/glfw/src/input.c">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/deps/glfw/src/input.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/deps/glfw/src/internal.h">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/deps/glfw/src/internal.h">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/deps/glfw/src/iokit_joystick.h">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/deps/glfw/src/iokit_joystick.h">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/deps/glfw/src/iokit_joystick.m">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/deps/glfw/src/iokit_joystick.m">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/deps/glfw/src/mach_time.c">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/deps/glfw/src/mach_time.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/deps/glfw/src/monitor.c">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/deps/glfw/src/monitor.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/deps/glfw/src/nsgl_context.h">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/deps/glfw/src/nsgl_context.h">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/deps/glfw/src/nsgl_context.m">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/deps/glfw/src/nsgl_context.m">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/deps/glfw/src/posix_tls.c">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/deps/glfw/src/posix_tls.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/deps/glfw/src/posix_tls.h">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/deps/glfw/src/posix_tls.h">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/deps/glfw/src/window.c">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/deps/glfw/src/window.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/src/base64.cpp">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/src/base64.cpp">
 			<Option target="CGL"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/src/color.cpp">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/src/color.cpp">
 			<Option target="CGL"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/src/complex.cpp">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/src/complex.cpp">
 			<Option target="CGL"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/src/lodepng.cpp">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/src/lodepng.cpp">
 			<Option target="CGL"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/src/matrix3x3.cpp">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/src/matrix3x3.cpp">
 			<Option target="CGL"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/src/matrix4x4.cpp">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/src/matrix4x4.cpp">
 			<Option target="CGL"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/src/osdfont.cpp">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/src/osdfont.cpp">
 			<Option target="CGL"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/src/osdtext.cpp">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/src/osdtext.cpp">
 			<Option target="CGL"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/src/path.cpp">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/src/path.cpp">
 			<Option target="CGL"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/src/quaternion.cpp">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/src/quaternion.cpp">
 			<Option target="CGL"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/src/spectrum.cpp">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/src/spectrum.cpp">
 			<Option target="CGL"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/src/tinyxml2.cpp">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/src/tinyxml2.cpp">
 			<Option target="CGL"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/src/vector2D.cpp">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/src/vector2D.cpp">
 			<Option target="CGL"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/src/vector3D.cpp">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/src/vector3D.cpp">
 			<Option target="CGL"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/src/vector4D.cpp">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/src/vector4D.cpp">
 			<Option target="CGL"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/src/viewer.cpp">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/src/viewer.cpp">
 			<Option target="CGL"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/deps/glfw/src/glfw_config.h">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/deps/glfw/src/glfw_config.h">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/src/drawrend.cpp">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/src/drawrend.cpp">
 			<Option target="draw"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/src/drawrend.h">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/src/drawrend.h">
 			<Option target="draw"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/src/main.cpp">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/src/main.cpp">
 			<Option target="draw"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/src/svg.cpp">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/src/svg.cpp">
 			<Option target="draw"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/src/svg.h">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/src/svg.h">
 			<Option target="draw"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/src/svgparser.cpp">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/src/svgparser.cpp">
 			<Option target="draw"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/src/svgparser.h">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/src/svgparser.h">
 			<Option target="draw"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/src/texture.cpp">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/src/texture.cpp">
 			<Option target="draw"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/src/texture.h">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/src/texture.h">
 			<Option target="draw"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/src/transforms.cpp">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/src/transforms.cpp">
 			<Option target="draw"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/src/transforms.h">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/src/transforms.h">
 			<Option target="draw"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/src/triangulation.cpp">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/src/triangulation.cpp">
 			<Option target="draw"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/src/triangulation.h">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/src/triangulation.h">
 			<Option target="draw"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/CMakeLists.txt">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/CMakeLists.txt">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\CGL\"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/deps/glew/CMakeLists.txt">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/deps/glew/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\CGL\deps\glew\"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/deps/glfw/CMakeLists.txt">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/deps/glfw/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\CGL\deps\glfw\"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/deps/glfw/cmake_uninstall.cmake.in">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/deps/glfw/cmake_uninstall.cmake.in">
 			<Option virtualFolder="CMake Files\CGL\deps\glfw\"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/deps/glfw/src/CMakeLists.txt">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/deps/glfw/src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\CGL\deps\glfw\src\"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/deps/glfw/src/glfw3.pc.in">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/deps/glfw/src/glfw3.pc.in">
 			<Option virtualFolder="CMake Files\CGL\deps\glfw\src\"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/deps/glfw/src/glfw3Config.cmake.in">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/deps/glfw/src/glfw3Config.cmake.in">
 			<Option virtualFolder="CMake Files\CGL\deps\glfw\src\"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/deps/glfw/src/glfw_config.h.in">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/deps/glfw/src/glfw_config.h.in">
 			<Option virtualFolder="CMake Files\CGL\deps\glfw\src\"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/src/CMakeLists.txt">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\CGL\src\"/>
 		</Unit>
-		<Unit filename="/Users/minxingchen/Developer/Graphics/p1-rasterizer/src/CMakeLists.txt">
+		<Unit filename="/Users/minxingchen/Developer/Graphics/Rasterizer/src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\"/>
 		</Unit>
 	</Project>

@@ -222,15 +222,15 @@ GL/glext.h
 GL/glu.h
 -
 
-/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/src/base64.cpp
+/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/src/base64.cpp
 base64.h
-/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/src/base64.h
+/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/src/base64.h
 iostream
 -
 
-/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/src/color.cpp
+/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/src/color.cpp
 color.h
-/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/src/color.h
+/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/src/color.h
 stdio.h
 -
 string.h
@@ -240,13 +240,13 @@ ostream
 sstream
 -
 
-/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/src/complex.cpp
+/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/src/complex.cpp
 complex.h
-/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/src/complex.h
+/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/src/complex.h
 
-/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/src/lodepng.cpp
+/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/src/lodepng.cpp
 lodepng.h
-/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/src/lodepng.h
+/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/src/lodepng.h
 stdio.h
 -
 stdlib.h
@@ -254,53 +254,53 @@ stdlib.h
 fstream
 -
 
-/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/src/matrix3x3.cpp
+/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/src/matrix3x3.cpp
 matrix3x3.h
-/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/src/matrix3x3.h
+/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/src/matrix3x3.h
 iostream
 -
 cmath
 -
 
-/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/src/matrix4x4.cpp
+/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/src/matrix4x4.cpp
 matrix4x4.h
-/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/src/matrix4x4.h
+/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/src/matrix4x4.h
 iostream
 -
 cmath
 -
 
-/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/src/osdfont.cpp
+/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/src/osdfont.cpp
 string
 -
 osdtext.h
-/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/src/osdtext.h
+/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/src/osdtext.h
 
-/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/src/osdtext.cpp
+/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/src/osdtext.cpp
 osdtext.h
-/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/src/osdtext.h
+/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/src/osdtext.h
 iostream
 -
 ft2build.h
-/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/src/ft2build.h
+/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/src/ft2build.h
 base64.h
-/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/src/base64.h
+/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/src/base64.h
 console.h
-/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/src/console.h
+/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/src/console.h
 
-/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/src/path.cpp
+/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/src/path.cpp
 string
 -
 Windows.h
 -
 
-/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/src/quaternion.cpp
+/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/src/quaternion.cpp
 quaternion.h
-/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/src/quaternion.h
+/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/src/quaternion.h
 
-/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/src/spectrum.cpp
+/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/src/spectrum.cpp
 spectrum.h
-/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/src/spectrum.h
+/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/src/spectrum.h
 stdio.h
 -
 string.h
@@ -310,9 +310,9 @@ ostream
 sstream
 -
 
-/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/src/tinyxml2.cpp
+/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/src/tinyxml2.cpp
 tinyxml2.h
-/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/src/tinyxml2.h
+/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/src/tinyxml2.h
 new
 -
 stddef.h
@@ -320,21 +320,21 @@ stddef.h
 cstddef
 -
 
-/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/src/vector2D.cpp
+/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/src/vector2D.cpp
 vector2D.h
-/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/src/vector2D.h
+/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/src/vector2D.h
 
-/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/src/vector3D.cpp
+/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/src/vector3D.cpp
 vector3D.h
-/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/src/vector3D.h
+/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/src/vector3D.h
 
-/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/src/vector4D.cpp
+/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/src/vector4D.cpp
 vector4D.h
-/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/src/vector4D.h
+/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/src/vector4D.h
 
-/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/src/viewer.cpp
+/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/src/viewer.cpp
 viewer.h
-/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/src/viewer.h
+/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/src/viewer.h
 stdio.h
 -
 cmath
@@ -348,9 +348,9 @@ algorithm
 sstream
 -
 GL/glew.h
-/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/src/GL/glew.h
+/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/src/GL/glew.h
 console.h
-/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/src/console.h
+/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/src/console.h
 
 /usr/local/include/freetype2/freetype/config/ftheader.h
 

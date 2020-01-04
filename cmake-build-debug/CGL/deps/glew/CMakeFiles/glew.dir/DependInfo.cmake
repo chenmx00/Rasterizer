@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/deps/glew/src/glew.c" "/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/deps/glew/CMakeFiles/glew.dir/src/glew.c.o"
-  "/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/deps/glew/src/glewinfo.c" "/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/deps/glew/CMakeFiles/glew.dir/src/glewinfo.c.o"
-  "/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/deps/glew/src/visualinfo.c" "/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/deps/glew/CMakeFiles/glew.dir/src/visualinfo.c.o"
+  "/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/deps/glew/src/glew.c" "/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/deps/glew/CMakeFiles/glew.dir/src/glew.c.o"
+  "/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/deps/glew/src/glewinfo.c" "/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/deps/glew/CMakeFiles/glew.dir/src/glewinfo.c.o"
+  "/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/deps/glew/src/visualinfo.c" "/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/deps/glew/CMakeFiles/glew.dir/src/visualinfo.c.o"
   )
 set(CMAKE_C_COMPILER_ID "Clang")
 

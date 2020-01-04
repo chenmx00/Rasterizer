@@ -6,5 +6,5 @@ C_FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacO
 
 C_DEFINES = -DGLEW_STATIC -D_GLFW_USE_CONFIG_H
 
-C_INCLUDES = -I/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/deps/glfw/src -I/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/deps/glfw/src 
+C_INCLUDES = -I/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/deps/glfw/src -I/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/deps/glfw/src 
 

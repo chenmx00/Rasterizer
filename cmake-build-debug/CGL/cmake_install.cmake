@@ -1,8 +1,8 @@
-# Install script for directory: /Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL
+# Install script for directory: /Users/minxingchen/Developer/Graphics/Rasterizer/CGL
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL")
+  set(CMAKE_INSTALL_PREFIX "/Users/minxingchen/Developer/Graphics/Rasterizer/CGL")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,9 +34,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/deps/glew/cmake_install.cmake")
-  include("/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/deps/glfw/cmake_install.cmake")
-  include("/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/src/cmake_install.cmake")
+  include("/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/deps/glew/cmake_install.cmake")
+  include("/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/deps/glfw/cmake_install.cmake")
+  include("/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/src/cmake_install.cmake")
 
 endif()
 

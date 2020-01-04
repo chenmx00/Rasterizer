@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++11 -m64 -O3 -funroll-loops -Wno-narrowing -Wno-deprecated-r
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/include -I/usr/local/include/freetype2 
+CXX_INCLUDES = -I/Users/minxingchen/Developer/Graphics/Rasterizer/CGL/include -I/usr/local/include/freetype2 
 

@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/minxingchen/Developer/Graphics/p1-rasterizer
+CMAKE_SOURCE_DIR = /Users/minxingchen/Developer/Graphics/Rasterizer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CMakeFiles /Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/src/CMakeFiles/progress.marks
-	cd /Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CMakeFiles 0
+	cd /Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CMakeFiles /Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/src/CMakeFiles/progress.marks
+	cd /Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd /Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/draw.dir/rule:
-	cd /Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/draw.dir/rule
+	cd /Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/draw.dir/rule
 .PHONY : src/CMakeFiles/draw.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ draw: src/CMakeFiles/draw.dir/rule
 
 # fast build rule for target.
 draw/fast:
-	cd /Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/draw.dir/build.make src/CMakeFiles/draw.dir/build
+	cd /Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/draw.dir/build.make src/CMakeFiles/draw.dir/build
 .PHONY : draw/fast
 
 drawrend.o: drawrend.cpp.o
@@ -177,7 +177,7 @@ drawrend.o: drawrend.cpp.o
 
 # target to build an object file
 drawrend.cpp.o:
-	cd /Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/draw.dir/build.make src/CMakeFiles/draw.dir/drawrend.cpp.o
+	cd /Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/draw.dir/build.make src/CMakeFiles/draw.dir/drawrend.cpp.o
 .PHONY : drawrend.cpp.o
 
 drawrend.i: drawrend.cpp.i
@@ -186,7 +186,7 @@ drawrend.i: drawrend.cpp.i
 
 # target to preprocess a source file
 drawrend.cpp.i:
-	cd /Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/draw.dir/build.make src/CMakeFiles/draw.dir/drawrend.cpp.i
+	cd /Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/draw.dir/build.make src/CMakeFiles/draw.dir/drawrend.cpp.i
 .PHONY : drawrend.cpp.i
 
 drawrend.s: drawrend.cpp.s
@@ -195,7 +195,7 @@ drawrend.s: drawrend.cpp.s
 
 # target to generate assembly for a file
 drawrend.cpp.s:
-	cd /Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/draw.dir/build.make src/CMakeFiles/draw.dir/drawrend.cpp.s
+	cd /Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/draw.dir/build.make src/CMakeFiles/draw.dir/drawrend.cpp.s
 .PHONY : drawrend.cpp.s
 
 main.o: main.cpp.o
@@ -204,7 +204,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/draw.dir/build.make src/CMakeFiles/draw.dir/main.cpp.o
+	cd /Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/draw.dir/build.make src/CMakeFiles/draw.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -213,7 +213,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/draw.dir/build.make src/CMakeFiles/draw.dir/main.cpp.i
+	cd /Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/draw.dir/build.make src/CMakeFiles/draw.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -222,7 +222,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/draw.dir/build.make src/CMakeFiles/draw.dir/main.cpp.s
+	cd /Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/draw.dir/build.make src/CMakeFiles/draw.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 svg.o: svg.cpp.o
@@ -231,7 +231,7 @@ svg.o: svg.cpp.o
 
 # target to build an object file
 svg.cpp.o:
-	cd /Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/draw.dir/build.make src/CMakeFiles/draw.dir/svg.cpp.o
+	cd /Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/draw.dir/build.make src/CMakeFiles/draw.dir/svg.cpp.o
 .PHONY : svg.cpp.o
 
 svg.i: svg.cpp.i
@@ -240,7 +240,7 @@ svg.i: svg.cpp.i
 
 # target to preprocess a source file
 svg.cpp.i:
-	cd /Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/draw.dir/build.make src/CMakeFiles/draw.dir/svg.cpp.i
+	cd /Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/draw.dir/build.make src/CMakeFiles/draw.dir/svg.cpp.i
 .PHONY : svg.cpp.i
 
 svg.s: svg.cpp.s
@@ -249,7 +249,7 @@ svg.s: svg.cpp.s
 
 # target to generate assembly for a file
 svg.cpp.s:
-	cd /Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/draw.dir/build.make src/CMakeFiles/draw.dir/svg.cpp.s
+	cd /Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/draw.dir/build.make src/CMakeFiles/draw.dir/svg.cpp.s
 .PHONY : svg.cpp.s
 
 svgparser.o: svgparser.cpp.o
@@ -258,7 +258,7 @@ svgparser.o: svgparser.cpp.o
 
 # target to build an object file
 svgparser.cpp.o:
-	cd /Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/draw.dir/build.make src/CMakeFiles/draw.dir/svgparser.cpp.o
+	cd /Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/draw.dir/build.make src/CMakeFiles/draw.dir/svgparser.cpp.o
 .PHONY : svgparser.cpp.o
 
 svgparser.i: svgparser.cpp.i
@@ -267,7 +267,7 @@ svgparser.i: svgparser.cpp.i
 
 # target to preprocess a source file
 svgparser.cpp.i:
-	cd /Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/draw.dir/build.make src/CMakeFiles/draw.dir/svgparser.cpp.i
+	cd /Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/draw.dir/build.make src/CMakeFiles/draw.dir/svgparser.cpp.i
 .PHONY : svgparser.cpp.i
 
 svgparser.s: svgparser.cpp.s
@@ -276,7 +276,7 @@ svgparser.s: svgparser.cpp.s
 
 # target to generate assembly for a file
 svgparser.cpp.s:
-	cd /Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/draw.dir/build.make src/CMakeFiles/draw.dir/svgparser.cpp.s
+	cd /Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/draw.dir/build.make src/CMakeFiles/draw.dir/svgparser.cpp.s
 .PHONY : svgparser.cpp.s
 
 texture.o: texture.cpp.o
@@ -285,7 +285,7 @@ texture.o: texture.cpp.o
 
 # target to build an object file
 texture.cpp.o:
-	cd /Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/draw.dir/build.make src/CMakeFiles/draw.dir/texture.cpp.o
+	cd /Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/draw.dir/build.make src/CMakeFiles/draw.dir/texture.cpp.o
 .PHONY : texture.cpp.o
 
 texture.i: texture.cpp.i
@@ -294,7 +294,7 @@ texture.i: texture.cpp.i
 
 # target to preprocess a source file
 texture.cpp.i:
-	cd /Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/draw.dir/build.make src/CMakeFiles/draw.dir/texture.cpp.i
+	cd /Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/draw.dir/build.make src/CMakeFiles/draw.dir/texture.cpp.i
 .PHONY : texture.cpp.i
 
 texture.s: texture.cpp.s
@@ -303,7 +303,7 @@ texture.s: texture.cpp.s
 
 # target to generate assembly for a file
 texture.cpp.s:
-	cd /Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/draw.dir/build.make src/CMakeFiles/draw.dir/texture.cpp.s
+	cd /Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/draw.dir/build.make src/CMakeFiles/draw.dir/texture.cpp.s
 .PHONY : texture.cpp.s
 
 transforms.o: transforms.cpp.o
@@ -312,7 +312,7 @@ transforms.o: transforms.cpp.o
 
 # target to build an object file
 transforms.cpp.o:
-	cd /Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/draw.dir/build.make src/CMakeFiles/draw.dir/transforms.cpp.o
+	cd /Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/draw.dir/build.make src/CMakeFiles/draw.dir/transforms.cpp.o
 .PHONY : transforms.cpp.o
 
 transforms.i: transforms.cpp.i
@@ -321,7 +321,7 @@ transforms.i: transforms.cpp.i
 
 # target to preprocess a source file
 transforms.cpp.i:
-	cd /Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/draw.dir/build.make src/CMakeFiles/draw.dir/transforms.cpp.i
+	cd /Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/draw.dir/build.make src/CMakeFiles/draw.dir/transforms.cpp.i
 .PHONY : transforms.cpp.i
 
 transforms.s: transforms.cpp.s
@@ -330,7 +330,7 @@ transforms.s: transforms.cpp.s
 
 # target to generate assembly for a file
 transforms.cpp.s:
-	cd /Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/draw.dir/build.make src/CMakeFiles/draw.dir/transforms.cpp.s
+	cd /Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/draw.dir/build.make src/CMakeFiles/draw.dir/transforms.cpp.s
 .PHONY : transforms.cpp.s
 
 triangulation.o: triangulation.cpp.o
@@ -339,7 +339,7 @@ triangulation.o: triangulation.cpp.o
 
 # target to build an object file
 triangulation.cpp.o:
-	cd /Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/draw.dir/build.make src/CMakeFiles/draw.dir/triangulation.cpp.o
+	cd /Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/draw.dir/build.make src/CMakeFiles/draw.dir/triangulation.cpp.o
 .PHONY : triangulation.cpp.o
 
 triangulation.i: triangulation.cpp.i
@@ -348,7 +348,7 @@ triangulation.i: triangulation.cpp.i
 
 # target to preprocess a source file
 triangulation.cpp.i:
-	cd /Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/draw.dir/build.make src/CMakeFiles/draw.dir/triangulation.cpp.i
+	cd /Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/draw.dir/build.make src/CMakeFiles/draw.dir/triangulation.cpp.i
 .PHONY : triangulation.cpp.i
 
 triangulation.s: triangulation.cpp.s
@@ -357,7 +357,7 @@ triangulation.s: triangulation.cpp.s
 
 # target to generate assembly for a file
 triangulation.cpp.s:
-	cd /Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/draw.dir/build.make src/CMakeFiles/draw.dir/triangulation.cpp.s
+	cd /Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug && $(MAKE) -f src/CMakeFiles/draw.dir/build.make src/CMakeFiles/draw.dir/triangulation.cpp.s
 .PHONY : triangulation.cpp.s
 
 # Help Target
@@ -405,6 +405,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

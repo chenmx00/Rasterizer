@@ -1,9 +1,9 @@
 
-if (NOT EXISTS "/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/deps/glfw/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: \"/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/deps/glfw/install_manifest.txt\"")
+if (NOT EXISTS "/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/deps/glfw/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: \"/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/deps/glfw/install_manifest.txt\"")
 endif()
 
-file(READ "/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/deps/glfw/install_manifest.txt" files)
+file(READ "/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/deps/glfw/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})

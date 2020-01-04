@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/minxingchen/Developer/Graphics/p1-rasterizer
+CMAKE_SOURCE_DIR = /Users/minxingchen/Developer/Graphics/Rasterizer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug
 
 # Utility rule file for uninstall.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-bui
 include CGL/deps/glfw/CMakeFiles/uninstall.dir/progress.make
 
 CGL/deps/glfw/CMakeFiles/uninstall:
-	cd /Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/deps/glfw && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -P /Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/deps/glfw/cmake_uninstall.cmake
+	cd /Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/deps/glfw && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -P /Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/deps/glfw/cmake_uninstall.cmake
 
 uninstall: CGL/deps/glfw/CMakeFiles/uninstall
 uninstall: CGL/deps/glfw/CMakeFiles/uninstall.dir/build.make
@@ -67,10 +67,10 @@ CGL/deps/glfw/CMakeFiles/uninstall.dir/build: uninstall
 .PHONY : CGL/deps/glfw/CMakeFiles/uninstall.dir/build
 
 CGL/deps/glfw/CMakeFiles/uninstall.dir/clean:
-	cd /Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/deps/glfw && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
+	cd /Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/deps/glfw && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
 .PHONY : CGL/deps/glfw/CMakeFiles/uninstall.dir/clean
 
 CGL/deps/glfw/CMakeFiles/uninstall.dir/depend:
-	cd /Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/minxingchen/Developer/Graphics/p1-rasterizer /Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/deps/glfw /Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug /Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/deps/glfw /Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/deps/glfw/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/minxingchen/Developer/Graphics/Rasterizer /Users/minxingchen/Developer/Graphics/Rasterizer/CGL/deps/glfw /Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug /Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/deps/glfw /Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/deps/glfw/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CGL/deps/glfw/CMakeFiles/uninstall.dir/depend
 

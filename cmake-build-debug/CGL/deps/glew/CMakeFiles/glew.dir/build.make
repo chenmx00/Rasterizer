@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/minxingchen/Developer/Graphics/p1-rasterizer
+CMAKE_SOURCE_DIR = /Users/minxingchen/Developer/Graphics/Rasterizer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CGL/deps/glew/CMakeFiles/glew.dir/depend.make
@@ -59,42 +59,42 @@ include CGL/deps/glew/CMakeFiles/glew.dir/flags.make
 
 CGL/deps/glew/CMakeFiles/glew.dir/src/glew.c.o: CGL/deps/glew/CMakeFiles/glew.dir/flags.make
 CGL/deps/glew/CMakeFiles/glew.dir/src/glew.c.o: ../CGL/deps/glew/src/glew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CGL/deps/glew/CMakeFiles/glew.dir/src/glew.c.o"
-	cd /Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/deps/glew && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glew.dir/src/glew.c.o   -c /Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/deps/glew/src/glew.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CGL/deps/glew/CMakeFiles/glew.dir/src/glew.c.o"
+	cd /Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/deps/glew && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glew.dir/src/glew.c.o   -c /Users/minxingchen/Developer/Graphics/Rasterizer/CGL/deps/glew/src/glew.c
 
 CGL/deps/glew/CMakeFiles/glew.dir/src/glew.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glew.dir/src/glew.c.i"
-	cd /Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/deps/glew && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/deps/glew/src/glew.c > CMakeFiles/glew.dir/src/glew.c.i
+	cd /Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/deps/glew && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/minxingchen/Developer/Graphics/Rasterizer/CGL/deps/glew/src/glew.c > CMakeFiles/glew.dir/src/glew.c.i
 
 CGL/deps/glew/CMakeFiles/glew.dir/src/glew.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glew.dir/src/glew.c.s"
-	cd /Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/deps/glew && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/deps/glew/src/glew.c -o CMakeFiles/glew.dir/src/glew.c.s
+	cd /Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/deps/glew && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/minxingchen/Developer/Graphics/Rasterizer/CGL/deps/glew/src/glew.c -o CMakeFiles/glew.dir/src/glew.c.s
 
 CGL/deps/glew/CMakeFiles/glew.dir/src/glewinfo.c.o: CGL/deps/glew/CMakeFiles/glew.dir/flags.make
 CGL/deps/glew/CMakeFiles/glew.dir/src/glewinfo.c.o: ../CGL/deps/glew/src/glewinfo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CGL/deps/glew/CMakeFiles/glew.dir/src/glewinfo.c.o"
-	cd /Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/deps/glew && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glew.dir/src/glewinfo.c.o   -c /Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/deps/glew/src/glewinfo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CGL/deps/glew/CMakeFiles/glew.dir/src/glewinfo.c.o"
+	cd /Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/deps/glew && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glew.dir/src/glewinfo.c.o   -c /Users/minxingchen/Developer/Graphics/Rasterizer/CGL/deps/glew/src/glewinfo.c
 
 CGL/deps/glew/CMakeFiles/glew.dir/src/glewinfo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glew.dir/src/glewinfo.c.i"
-	cd /Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/deps/glew && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/deps/glew/src/glewinfo.c > CMakeFiles/glew.dir/src/glewinfo.c.i
+	cd /Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/deps/glew && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/minxingchen/Developer/Graphics/Rasterizer/CGL/deps/glew/src/glewinfo.c > CMakeFiles/glew.dir/src/glewinfo.c.i
 
 CGL/deps/glew/CMakeFiles/glew.dir/src/glewinfo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glew.dir/src/glewinfo.c.s"
-	cd /Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/deps/glew && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/deps/glew/src/glewinfo.c -o CMakeFiles/glew.dir/src/glewinfo.c.s
+	cd /Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/deps/glew && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/minxingchen/Developer/Graphics/Rasterizer/CGL/deps/glew/src/glewinfo.c -o CMakeFiles/glew.dir/src/glewinfo.c.s
 
 CGL/deps/glew/CMakeFiles/glew.dir/src/visualinfo.c.o: CGL/deps/glew/CMakeFiles/glew.dir/flags.make
 CGL/deps/glew/CMakeFiles/glew.dir/src/visualinfo.c.o: ../CGL/deps/glew/src/visualinfo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CGL/deps/glew/CMakeFiles/glew.dir/src/visualinfo.c.o"
-	cd /Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/deps/glew && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glew.dir/src/visualinfo.c.o   -c /Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/deps/glew/src/visualinfo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CGL/deps/glew/CMakeFiles/glew.dir/src/visualinfo.c.o"
+	cd /Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/deps/glew && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glew.dir/src/visualinfo.c.o   -c /Users/minxingchen/Developer/Graphics/Rasterizer/CGL/deps/glew/src/visualinfo.c
 
 CGL/deps/glew/CMakeFiles/glew.dir/src/visualinfo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glew.dir/src/visualinfo.c.i"
-	cd /Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/deps/glew && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/deps/glew/src/visualinfo.c > CMakeFiles/glew.dir/src/visualinfo.c.i
+	cd /Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/deps/glew && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/minxingchen/Developer/Graphics/Rasterizer/CGL/deps/glew/src/visualinfo.c > CMakeFiles/glew.dir/src/visualinfo.c.i
 
 CGL/deps/glew/CMakeFiles/glew.dir/src/visualinfo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glew.dir/src/visualinfo.c.s"
-	cd /Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/deps/glew && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/deps/glew/src/visualinfo.c -o CMakeFiles/glew.dir/src/visualinfo.c.s
+	cd /Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/deps/glew && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/minxingchen/Developer/Graphics/Rasterizer/CGL/deps/glew/src/visualinfo.c -o CMakeFiles/glew.dir/src/visualinfo.c.s
 
 # Object files for target glew
 glew_OBJECTS = \
@@ -110,9 +110,9 @@ CGL/deps/glew/libglew.a: CGL/deps/glew/CMakeFiles/glew.dir/src/glewinfo.c.o
 CGL/deps/glew/libglew.a: CGL/deps/glew/CMakeFiles/glew.dir/src/visualinfo.c.o
 CGL/deps/glew/libglew.a: CGL/deps/glew/CMakeFiles/glew.dir/build.make
 CGL/deps/glew/libglew.a: CGL/deps/glew/CMakeFiles/glew.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libglew.a"
-	cd /Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/deps/glew && $(CMAKE_COMMAND) -P CMakeFiles/glew.dir/cmake_clean_target.cmake
-	cd /Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/deps/glew && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/glew.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libglew.a"
+	cd /Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/deps/glew && $(CMAKE_COMMAND) -P CMakeFiles/glew.dir/cmake_clean_target.cmake
+	cd /Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/deps/glew && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/glew.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 CGL/deps/glew/CMakeFiles/glew.dir/build: CGL/deps/glew/libglew.a
@@ -120,10 +120,10 @@ CGL/deps/glew/CMakeFiles/glew.dir/build: CGL/deps/glew/libglew.a
 .PHONY : CGL/deps/glew/CMakeFiles/glew.dir/build
 
 CGL/deps/glew/CMakeFiles/glew.dir/clean:
-	cd /Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/deps/glew && $(CMAKE_COMMAND) -P CMakeFiles/glew.dir/cmake_clean.cmake
+	cd /Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/deps/glew && $(CMAKE_COMMAND) -P CMakeFiles/glew.dir/cmake_clean.cmake
 .PHONY : CGL/deps/glew/CMakeFiles/glew.dir/clean
 
 CGL/deps/glew/CMakeFiles/glew.dir/depend:
-	cd /Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/minxingchen/Developer/Graphics/p1-rasterizer /Users/minxingchen/Developer/Graphics/p1-rasterizer/CGL/deps/glew /Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug /Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/deps/glew /Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/CGL/deps/glew/CMakeFiles/glew.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/minxingchen/Developer/Graphics/Rasterizer /Users/minxingchen/Developer/Graphics/Rasterizer/CGL/deps/glew /Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug /Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/deps/glew /Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/CGL/deps/glew/CMakeFiles/glew.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CGL/deps/glew/CMakeFiles/glew.dir/depend
 

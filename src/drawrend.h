@@ -158,7 +158,7 @@ private:
   }
 
 
-    bool inside_triangle_helper(float x0, float y0, float x1, float y1, double d, double d1);
+    float inside_triangle_helper(float x0, float y0, float x1, float y1, double d, double d1);
 };
 
 } // namespace CGL

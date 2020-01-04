@@ -1,4 +1,4 @@
-# Install script for directory: /Users/minxingchen/Developer/Graphics/p1-rasterizer/src
+# Install script for directory: /Users/minxingchen/Developer/Graphics/Rasterizer/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,18 +34,18 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/Users/minxingchen/Developer/Graphics/p1-rasterizer/draw")
+   "/Users/minxingchen/Developer/Graphics/Rasterizer/draw")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/Users/minxingchen/Developer/Graphics/p1-rasterizer" TYPE EXECUTABLE FILES "/Users/minxingchen/Developer/Graphics/p1-rasterizer/cmake-build-debug/draw")
-  if(EXISTS "$ENV{DESTDIR}/Users/minxingchen/Developer/Graphics/p1-rasterizer/draw" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/Users/minxingchen/Developer/Graphics/p1-rasterizer/draw")
+file(INSTALL DESTINATION "/Users/minxingchen/Developer/Graphics/Rasterizer" TYPE EXECUTABLE FILES "/Users/minxingchen/Developer/Graphics/Rasterizer/cmake-build-debug/draw")
+  if(EXISTS "$ENV{DESTDIR}/Users/minxingchen/Developer/Graphics/Rasterizer/draw" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/Users/minxingchen/Developer/Graphics/Rasterizer/draw")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip" -u -r "$ENV{DESTDIR}/Users/minxingchen/Developer/Graphics/p1-rasterizer/draw")
+      execute_process(COMMAND "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip" -u -r "$ENV{DESTDIR}/Users/minxingchen/Developer/Graphics/Rasterizer/draw")
     endif()
   endif()
 endif()
