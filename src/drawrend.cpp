@@ -537,7 +537,7 @@ void DrawRend::rasterize_triangle( float x0, float y0,
 
 
 
-    float DrawRend::inside_triangle_helper(float x0, float y0, float x1, float y1, double x, double y) {
+    inline float DrawRend::inside_triangle_helper(float x0, float y0, float x1, float y1, double x, double y) {
         return (y - y0) * (x1 - x0) - (x - x0) * (y1 - y0);
     }
 
