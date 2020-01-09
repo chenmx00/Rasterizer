@@ -116,6 +116,17 @@ private:
     }
 
     Color get_pixel_color() {
+        if(sub_pixels.size() == samples_per_side){
+            for(int i = 0; i < 3; i++){
+                int color_channel = 0;
+                for(int x = 0; x < samples_per_side; x++){
+                    for(int y = 0; y < samples_per_side; y++){
+                        color_channel += sub_pixels[x][y][i];
+                    }
+                }
+                sub_pixels[0][0][i] = (unsigned char)color_channel * 1.0 / (samples_per_side * samples_per_side);
+            }
+        }
 
       return Color(sub_pixels[0][0].data());
       // Part 2: Implement get_pixel_color() for supersampling.
