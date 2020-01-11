@@ -511,20 +511,27 @@ void DrawRend::rasterize_triangle( float x0, float y0,
   // Part 4: Add barycentric coordinates and use tri->color for shading when available.
   // Part 5: Fill in the SampleParams struct and pass it to the tri->color function.
   // Part 6: Pass in correct barycentric differentials to tri->color for mipmapping.
-  float max_x = max(max(x0, x1), x2);
-  float max_y = max(max(y0, y1), y2);
+  float max_x = max(max(x0, x1), x2) + 1;
+  float max_y = max(max(y0, y1), y2) + 1;
   float min_x = min(min(x0, x1), x2);
   float min_y = min(min(y0, y1), y2);
-  for(int i = min_x; i < max_x; ++i){
-    for (int j = min_y; j < max_y; ++j){
+  for(int i = min_x; i < max_x; i++){
+    for (int j = min_y; j < max_y; j++){
         if(i>=this->width||j>=this->height)
             continue;
-        float e1 = inside_triangle_helper(x0, y0, x1, y1, i + 0.5, j + 0.5);
-        float e2 = inside_triangle_helper(x2, y2, x0, y0, i + 0.5, j + 0.5);
-        float e3 = inside_triangle_helper(x1, y1, x2, y2, i + 0.5, j + 0.5);
+        int sample_rate = samplebuffer[j][i].samples_per_side;
+        float sub_length = 1 / sqrt(sample_rate);
+        for(int sub_i = 0; sub_i < sample_rate; sub_i++){
+            for (int sub_j = 0; sub_j < sample_rate; sub_j++) {
+                float e1 = inside_triangle_helper(x0, y0, x1, y1, i + sub_length * (sub_i + 0.5), j + sub_length * (sub_j + 0.5));
+                float e2 = inside_triangle_helper(x2, y2, x0, y0, i + sub_length * (sub_i + 0.5), j + sub_length * (sub_j + 0.5));
+                float e3 = inside_triangle_helper(x1, y1, x2, y2, i + sub_length * (sub_i + 0.5), j + sub_length * (sub_j + 0.5));
 
-        if ((e1 > 0 && e2 > 0 && e3 > 0)) {
-            samplebuffer[j][i].fill_pixel(color);
+                if ((e1 > 0 && e2 > 0 && e3 > 0)) {
+                    samplebuffer[j][i].fill_color(sub_i,sub_j, color);
+                }
+
+            }
         }
         }
     }
