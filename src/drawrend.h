@@ -124,7 +124,7 @@ private:
                         color_channel += sub_pixels[x][y][i];
                     }
                 }
-                sub_pixels[0][0][i] = (unsigned char)color_channel * 1.0 / (samples_per_side * samples_per_side);
+                sub_pixels[0][0][i] = (unsigned char) (color_channel * 1.0 / (samples_per_side * samples_per_side));
             }
         }
 
