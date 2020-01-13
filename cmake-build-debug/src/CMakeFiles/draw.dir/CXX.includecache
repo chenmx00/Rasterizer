@@ -330,6 +330,16 @@ CGL/vector2D.h
 iostream
 -
 
+/Users/minxingchen/Developer/Graphics/Rasterizer/src/transforms.cpp
+transforms.h
+/Users/minxingchen/Developer/Graphics/Rasterizer/src/transforms.h
+CGL/matrix3x3.h
+/Users/minxingchen/Developer/Graphics/Rasterizer/src/CGL/matrix3x3.h
+CGL/vector2D.h
+/Users/minxingchen/Developer/Graphics/Rasterizer/src/CGL/vector2D.h
+CGL/vector3D.h
+/Users/minxingchen/Developer/Graphics/Rasterizer/src/CGL/vector3D.h
+
 /Users/minxingchen/Developer/Graphics/Rasterizer/src/transforms.h
 CGL/CGL.h
 /Users/minxingchen/Developer/Graphics/Rasterizer/src/CGL/CGL.h
