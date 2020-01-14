@@ -47,6 +47,7 @@ void Triangle::draw(DrawRend *dr, Matrix3x3 global_transform) {
  */
 Color ColorTri::color(Vector3D p_bary, Vector3D p_dx_bary, Vector3D p_dy_bary, SampleParams sp) {
   // Part 4: Fill this in.
+  p_bary.operator*(2.0);
   return Color();
 }
 
