@@ -47,8 +47,8 @@ void Triangle::draw(DrawRend *dr, Matrix3x3 global_transform) {
  */
 Color ColorTri::color(Vector3D p_bary, Vector3D p_dx_bary, Vector3D p_dy_bary, SampleParams sp) {
   // Part 4: Fill this in.
-  Color ret = p_bary.x * p0_col + p_bary.y * p1_col + p_bary.z * p2_col;
-  std::cout<<ret<<endl;
+        Color ret = p_bary[0]*p0_col + p_bary[1]*p1_col + p_bary[2]*p2_col;
+  //std::cout<<ret<<endl;
   return ret;
 }
 

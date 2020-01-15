@@ -138,6 +138,26 @@ GL/glext.h
 GL/glu.h
 -
 
+/Users/minxingchen/Developer/Graphics/Rasterizer/src/drawrend.cpp
+drawrend.h
+/Users/minxingchen/Developer/Graphics/Rasterizer/src/drawrend.h
+svg.h
+/Users/minxingchen/Developer/Graphics/Rasterizer/src/svg.h
+transforms.h
+/Users/minxingchen/Developer/Graphics/Rasterizer/src/transforms.h
+CGL/misc.h
+/Users/minxingchen/Developer/Graphics/Rasterizer/src/CGL/misc.h
+iostream
+-
+sstream
+-
+CGL/lodepng.h
+/Users/minxingchen/Developer/Graphics/Rasterizer/src/CGL/lodepng.h
+texture.h
+/Users/minxingchen/Developer/Graphics/Rasterizer/src/texture.h
+ctime
+-
+
 /Users/minxingchen/Developer/Graphics/Rasterizer/src/drawrend.h
 CGL/CGL.h
 /Users/minxingchen/Developer/Graphics/Rasterizer/src/CGL/CGL.h
@@ -153,20 +173,6 @@ GLFW/glfw3.h
 /Users/minxingchen/Developer/Graphics/Rasterizer/src/GLFW/glfw3.h
 svg.h
 /Users/minxingchen/Developer/Graphics/Rasterizer/src/svg.h
-
-/Users/minxingchen/Developer/Graphics/Rasterizer/src/svg.cpp
-svg.h
-/Users/minxingchen/Developer/Graphics/Rasterizer/src/svg.h
-drawrend.h
-/Users/minxingchen/Developer/Graphics/Rasterizer/src/drawrend.h
-transforms.h
-/Users/minxingchen/Developer/Graphics/Rasterizer/src/transforms.h
-triangulation.h
-/Users/minxingchen/Developer/Graphics/Rasterizer/src/triangulation.h
-iostream
--
-CGL/lodepng.h
-/Users/minxingchen/Developer/Graphics/Rasterizer/src/CGL/lodepng.h
 
 /Users/minxingchen/Developer/Graphics/Rasterizer/src/svg.h
 map
@@ -203,8 +209,4 @@ iostream
 /Users/minxingchen/Developer/Graphics/Rasterizer/src/transforms.h
 CGL/CGL.h
 /Users/minxingchen/Developer/Graphics/Rasterizer/src/CGL/CGL.h
-
-/Users/minxingchen/Developer/Graphics/Rasterizer/src/triangulation.h
-svg.h
-/Users/minxingchen/Developer/Graphics/Rasterizer/src/svg.h
 

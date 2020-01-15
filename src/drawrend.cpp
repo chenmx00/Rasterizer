@@ -528,7 +528,16 @@ void DrawRend::rasterize_triangle( float x0, float y0,
                 float e3 = inside_triangle_helper(x1, y1, x2, y2, i + sub_length * (sub_i + 0.5), j + sub_length * (sub_j + 0.5));
 
                 if ((e1 > 0 && e2 > 0 && e3 > 0)) {
-                    samplebuffer[j][i].fill_color(sub_i,sub_j, color);
+                    if(tri != NULL){
+                        double alpha = e1 / inside_triangle_helper(x0, y0, x1, y1, x2, y2);
+                        double beta = e2 / inside_triangle_helper(x2, y2, x0, y0, x1, y1);
+                        double gemma = (1 - alpha) - beta;
+
+
+                        samplebuffer[j][i].fill_color(sub_i,sub_j, tri->color(Vector3D(alpha, beta, gemma))* 255.0);
+                    } else{
+                        samplebuffer[j][i].fill_color(sub_i,sub_j, color);
+                    }
                 }
 
             }
