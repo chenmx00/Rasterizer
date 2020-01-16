@@ -62,7 +62,8 @@ Color ColorTri::color(Vector3D p_bary, Vector3D p_dx_bary, Vector3D p_dy_bary, S
 Color TexTri::color(Vector3D p_bary, Vector3D p_dx_bary, Vector3D p_dy_bary, SampleParams sp) {
   // Part 5: Fill this in with bilinear sampling.
   // Part 6: Fill this in with trilinear sampling as well.
-  return Color();
+        Color ret = p_bary[0];
+  return ret;
 }
 
 void Group::draw(DrawRend *dr, Matrix3x3 global_transform) {
